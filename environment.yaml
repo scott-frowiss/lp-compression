@@ -1,0 +1,25 @@
+name: lp-compression
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.12
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - numba==0.60.0
+  - llvmlite>=0.43.0
+  - imageio
+  - av
+  - imagecodecs
+  - scikit-image
+  - scikit-learn
+  - joblib
+  - napari
+  - pyqt6
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - git+https://github.com/phil-hofmann/lpfun.git
