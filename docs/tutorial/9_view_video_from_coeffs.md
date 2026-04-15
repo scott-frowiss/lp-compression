@@ -1,3 +1,5 @@
+[Back to Home](../../README.md)
+
 [<- Previous](8_optimize_parameters.md)
 
 This is a short notebook created just to view the reconstructed video from the coefficients
@@ -108,5 +110,6 @@ Viewing this way requires Jupyter Notebook.  If you're not using Jupyter Noteboo
 be a useful tool.
 
 ---
+[Back to Home](../../README.md)
 
 [<- Previous](8_optimize_parameters.md)

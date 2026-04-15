@@ -1,3 +1,5 @@
+[Back to Home](../../README.md)
+
 [<- Previous](3_video_psnr.md) | [Next ->](5_image3d_psnr.md)
 
 Now things start to change a bit.  The name `image3d` can be a bit misleading, because we're
@@ -99,5 +101,6 @@ print(df)
 ```
 
 ---
+[Back to Home](../../README.md)
 
 [<- Previous](3_video_psnr.md) | [Next ->](5_image3d_psnr.md)

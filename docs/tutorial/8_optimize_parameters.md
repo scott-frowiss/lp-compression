@@ -1,3 +1,5 @@
+[Back to Home](../../README.md)
+
 [<- Previous](7_video3d_psnr.md) | [Next ->](9_view_video_from_coeffs.md)
 
 Now let's take a look at optimising a parameter set for a specific video.  This notebook was
@@ -103,5 +105,6 @@ print("file_size = %.3f KB" % best_result["file_size"])
 For clarity on `loss_function` and `optimize_lp`, please see `core/optimisation/optimisation.py`
 
 ---
+[Back to Home](../../README.md)
 
 [<- Previous](7_video3d_psnr.md) | [Next ->](9_view_video_from_coeffs.md)

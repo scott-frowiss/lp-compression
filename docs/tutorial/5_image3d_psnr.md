@@ -1,3 +1,5 @@
+[Back to Home](../../README.md)
+
 [<- Previous](4_image3d_example.md) | [Next ->](6_video3d_example.md)
 
 Once again, this notebook mirrors the other `*_psnr.ipynb` notebooks; it's provided for clarity.
@@ -118,5 +120,6 @@ HTML(ani.to_jshtml())
 ```
 
 ---
+[Back to Home](../../README.md)
 
 [<- Previous](4_image3d_example.md) | [Next ->](6_video3d_example.md)

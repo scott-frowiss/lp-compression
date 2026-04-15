@@ -1,3 +1,5 @@
+[Back to Home](../../README.md)
+
 [<- Previous](0_image_example.md) | [Next ->](2_video_example.md)
 
 Now we take a look at the metrics, and how they vary with polynomial degree.  This can be
@@ -127,5 +129,6 @@ not already uncommented), and adjust the path to your desired path.  If you deci
 the naming convension, it's best to ensure that it remain consistent throughout the project.
 
 ---
+[Back to Home](../../README.md)
 
 [<- Previous](0_image_example.md) | [Next ->](2_video_example.md)

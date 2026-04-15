@@ -1,3 +1,5 @@
+[Back to Home](../../README.md)
+
 [<- Previous](2_video_example.md) | [Next ->](4_image3d_example.md)
 
 This will mirror `image_psnr.ipynb`, but we'll provide the code here for clarity.
@@ -136,5 +138,6 @@ HTML(ani.to_jshtml())
 Notebook, Napari may be a useful tool.
 
 ---
+[Back to Home](../../README.md)
 
 [<- Previous](2_video_example.md) | [Next ->](4_image3d_example.md)

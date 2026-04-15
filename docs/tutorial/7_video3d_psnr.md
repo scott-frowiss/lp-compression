@@ -1,3 +1,5 @@
+[Back to Home](../../README.md)
+
 [<- Previous](6_video3d_example.md) | [Next ->](8_optimize_parameters.md)
 
 As we've already seen, this notebook is very similar to the other `*_psnr.ipynb` notebooks,
@@ -202,5 +204,6 @@ This covers the basis of the project, and should hopefully give some insight int
 development.
 
 ---
+[Back to Home](../../README.md)
 
 [<- Previous](6_video3d_example.md) | [Next ->](8_optimize_parameters.md)

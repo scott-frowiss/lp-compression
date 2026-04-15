@@ -1,3 +1,5 @@
+[Back to Home](../../README.md)
+
 [Next ->](1_image_psnr.md)
 
 We chose to start with the garden table image (`img_2400X2400_3X16bit_C00C00_RGB_garden_table.png`) from the [TESTIMAGES](https://testimages.org/) dataset, but in principle any uncompressed image should work.  To convert to gray scale, please see the [TESTIMAGES](https://testimages.org/) website. 
@@ -96,5 +98,6 @@ print(df)
 ![garden\_table reconstruction comparison](../../reconstructions/garden_table_example.png)
 
 ---
+[Back to Home](../../README.md)
 
 [Next ->](1_image_psnr.md)
