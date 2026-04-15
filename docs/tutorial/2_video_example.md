@@ -94,7 +94,7 @@ ani = animation.FuncAnimation(fig, update, frames=len(video), interval=200, blit
 from IPython.display import HTML
 HTML(ani.to_jshtml())
 ```
-![drosophila\_1slice\_example](../../reconstructions/drosophila_1slice_example.mp4)
+<video src="https://github.com/user-attachments/assets/d8e517a7-4b54-4bd4-80d7-022aed8abb0c" controls width="600"></video>
 **Note:** The above method to view the video only works in Jupyter Notebook.  To view the video
 without Jupyter Notebook, Napari may be a good option.
 

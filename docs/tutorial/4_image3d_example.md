@@ -83,7 +83,7 @@ ani = animation.FuncAnimation(fig, update, frames=len(image3d), interval=200, bl
 from IPython.display import HTML
 HTML(ani.to_jshtml())
 ```
-![drosophila\_image3d\_example](../../reconstructions/drosophila_image3d_example.mp4)
+<video src="https://github.com/user-attachments/assets/84d15870-1652-4eec-ba99-0c780bc8423b" controls width="600"></video>
 **Remember:** This method to view the video only works in Jupyter Notebook.  If you're not using
 Jupyter Notebook, Napari may be a useful tool.
 
