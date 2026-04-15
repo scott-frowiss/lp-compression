@@ -127,7 +127,7 @@ viewer.add_image(video3d)
 viewer.add_image(video3d_rec)
 napari.run()
 ```
-![drosophila\_video3d\_example](../../reconstructions/drosophila_video3d_example.mp4)
+![drosophila\_video3d\_example](https://github.com/user-attachments/assets/8b2b0c67-56c3-45cd-96d4-a7ca990c86ba)
 
 Here we use only the small 100x100x100 volume of the video for simplicity.
 ```python
