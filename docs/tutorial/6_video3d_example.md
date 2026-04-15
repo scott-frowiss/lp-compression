@@ -127,7 +127,7 @@ viewer.add_image(video3d)
 viewer.add_image(video3d_rec)
 napari.run()
 ```
-<video src="https://github.com/user-attachments/assets/8b2b0c67-56c3-45cd-96d4-a7ca990c86ba" controls width="600"></video>
+<video src="https://github.com/user-attachments/assets/8b2b0c67-56c3-45cd-96d4-a7ca990c86ba" controls width="400"></video>
 
 Here we use only the small 100x100x100 volume of the video for simplicity.
 ```python
@@ -159,7 +159,7 @@ through the frames (forward and backward), and letting the video play at its own
 (very slow) speed a few times, we were able to view the video (original and reconstruction)
 with relative fluidity.
 
-![drosophila\_video3d\_larger\_example](../../reconstructions/drosophila_video3d_larger_example.mp4)
+<video src="https://github.com/user-attachments/assets/41dc262a-a127-4541-b26b-b7164338ddec" controls width="400"></video>
 
 We're getting closer to seeing the full 3D drosophila video, but as you can see from the
 difficulties we've had simply viewing this smaller portion, it's becomming quite computationally
