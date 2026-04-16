@@ -106,8 +106,9 @@ ani = animation.FuncAnimation(
 from IPython.display import HTML
 HTML(ani.to_jshtml())
 ```
-Viewing this way requires Jupyter Notebook.  If you're not using Jupyter Notebook, Napari may
-be a useful tool.
+The video is not actually displayed here, as examples have already been provided.
+**Note:** Viewing this way requires Jupyter Notebook.  If you're not using Jupyter Notebook,
+Napari may be a useful tool.
 
 ---
 [Back to Home](../../README.md)

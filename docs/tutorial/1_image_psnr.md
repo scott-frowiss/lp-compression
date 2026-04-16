@@ -81,9 +81,11 @@ ax1.legend(lines, labels, loc="upper center", bbox_to_anchor=(0.5, 1.15), ncol=2
 
 plt.title("PSNR and Space Saved vs Polynomial Degree")
 plt.tight_layout()
-# plt.savefig("../results/image/garden_table/psnr__pinv__bs=%s__cutoff=%s__p=%s__pd=%s-%s.png" % (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[9]))
+plt.savefig("../results/image/garden_table/plots/psnr__pinv__bs=%s__cutoff=%s__lp=%s__pd=%s-%s.png" % (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[9]))
 plt.show()
 ```
+![image\_psnr](../../reconstructions/psnr_plots/image/psnr__pinv__bs=20__cutoff=None__lp=0.5__poly_deg=1-19)
+
 Plotting Space Saved (%) vs Plotting PSNR (dB)
 
 ```python
@@ -99,9 +101,10 @@ ax.grid(True)
 
 plt.title("Space Saved vs PSNR (lp = %s)" % lp_degree)
 plt.tight_layout()
-# plt.savefig("../results/image/garden_table/space__vs__psnr__pinv__bs=%s__cutoff=%s__lp=%s__poly_deg=%s-%s.png" % (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[9]))
+plt.savefig("../results/image/garden_table/plots/space__vs__psnr__pinv__bs=%s__cutoff=%s__lp=%s__poly_deg=%s-%s.png" % (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[9]))
 plt.show()
 ```
+![image\_space\_vs\_psnr](../../reconstructions/psnr_plots/image/space__vs__psnr__pinv__bs=20__cutoff=None__lp=0.5__poly_deg=1-19)
 
 Let's take a look at some of the images, to see how well it's working
 

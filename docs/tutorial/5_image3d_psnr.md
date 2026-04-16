@@ -56,7 +56,6 @@ space_saved_values = [m.space_saved for m in metrics_list]
 ```
 Plotting PSNR (dB) vs Polynomial Degree
 ```python
-
 # Create figure and primary axis
 fig, ax1 = plt.subplots(figsize=(8, 5))
 
@@ -81,9 +80,11 @@ ax1.legend(lines, labels, loc="upper center", bbox_to_anchor=(0.5, 1.15), ncol=2
 
 plt.title("PSNR and Space Saved vs Polynomial Degree")
 plt.tight_layout()
-plt.savefig("../results/image3d/drosophila_1slice/psnr__pinv__bs=%s__cutoff=%s__lp=%s__poly_deg=%s-%s.png" % (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[9]))
+plt.savefig("../results/image3d/drosophila_1slice/plots/psnr__pinv__bs=%s__cutoff=%s__lp=%s__poly_deg=%s-%s.png" % (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[9]))
 plt.show()
 ```
+![image3d\_psnr](../../reconstructions/psnr_plots/image3d/psnr__pinv__bs=10__cutoff=None__lp=2.0__poly_deg=1-19)
+
 ```python
 # Create figure and primary axis
 fig, ax = plt.subplots(figsize=(8, 5))
@@ -99,6 +100,8 @@ plt.tight_layout()
 plt.savefig("../results/image3d/drosophila_1slice/plots/space__vs__psnr__pinv__bs=%s__cutoff=%s__lp=%s__poly_deg=%s-%s.png" % (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[9]))
 plt.show()
 ```
+![image3d\_space\_vs\_psnr](../../reconstructions/psnr_plots/image3d/space__vs__psnr__pinv__bs=10__cutoff=None__lp=2.0__poly_deg=1-19)
+
 Verify visual integrity
 ```python
 fig, ax = plt.subplots(1, 2, figsize=(8,4))

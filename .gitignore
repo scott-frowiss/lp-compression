@@ -218,3 +218,6 @@ __marimo__/
 # Directories
 results/
 sources/
+
+# Files
+README_old.md
