@@ -145,7 +145,7 @@ plt.savefig("../results/video3d/drosophila_video_full_01/plots/psnr__pinv__bs=%s
             (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[-1], t_degree, c_t_list[0].dtype))
 plt.show()
 ```
-![video3d\_psnr](../../reconstructions/psnr_plots/video3d/psnr__pinv__bs=10__cutoff=None__lp=2.0__poly_degree=1-19__t_degree=35__dtype=float16)
+![video3d\_psnr](../../reconstructions/psnr_plots/video3d/psnr__pinv__bs=10__cutoff=None__lp=2.0__poly_degree=1-19__t_degree=35__dtype=float16.png)
 
 Plotting SSIM and Space Saved vs Polynomial Degree
 ```python
@@ -192,7 +192,7 @@ plt.savefig("../results/video3d/drosophila_video_full_01/plots/psnr_plots/ssim__
             (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[-1], t_degree, c_t_list[0].dtype))
 plt.show()
 ```
-![video3d\_ssim](../../reconstructions/psnr_plots/video3d/ssim__bs=10__cutoff=None__lp=2.0__poly_degree=1-19__t_degree=35__dtype=float16)
+![video3d\_ssim](../../reconstructions/psnr_plots/video3d/ssim__bs=10__cutoff=None__lp=2.0__poly_degree=1-19__t_degree=35__dtype=float16.png)
 
 We've observed some strange results with these graphs.  For example, largely negative
 `space_saved` values.  We plan to look into this more in the future.

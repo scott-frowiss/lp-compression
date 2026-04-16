@@ -83,7 +83,7 @@ plt.tight_layout()
 plt.savefig("../results/image3d/drosophila_1slice/plots/psnr__pinv__bs=%s__cutoff=%s__lp=%s__poly_deg=%s-%s.png" % (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[9]))
 plt.show()
 ```
-![image3d\_psnr](../../reconstructions/psnr_plots/image3d/psnr__pinv__bs=10__cutoff=None__lp=2.0__poly_deg=1-19)
+![image3d\_psnr](../../reconstructions/psnr_plots/image3d/psnr__pinv__bs=10__cutoff=None__lp=2.0__poly_deg=1-19.png)
 
 ```python
 # Create figure and primary axis
@@ -100,7 +100,7 @@ plt.tight_layout()
 plt.savefig("../results/image3d/drosophila_1slice/plots/space__vs__psnr__pinv__bs=%s__cutoff=%s__lp=%s__poly_deg=%s-%s.png" % (block_size, cutoff, lp_degree, poly_degrees[0], poly_degrees[9]))
 plt.show()
 ```
-![image3d\_space\_vs\_psnr](../../reconstructions/psnr_plots/image3d/space__vs__psnr__pinv__bs=10__cutoff=None__lp=2.0__poly_deg=1-19)
+![image3d\_space\_vs\_psnr](../../reconstructions/psnr_plots/image3d/space__vs__psnr__pinv__bs=10__cutoff=None__lp=2.0__poly_deg=1-19.png)
 
 Verify visual integrity
 ```python

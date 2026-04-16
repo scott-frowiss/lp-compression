@@ -95,7 +95,7 @@ plt.savefig("../results/video/drosophila_1slice/plots/psnr__bs=%s__cutoff=%s__lp
 
 plt.show()
 ```
-![video\_psnr](../../reconstructions/psnr_plots/video/psnr__bs=10__cutoff=None__lp=2.0__poly_degs=1-10__t_degree=20__dtype=float16)
+![video\_psnr](../../reconstructions/psnr_plots/video/psnr__bs=10__cutoff=None__lp=2.0__poly_degs=1-10__t_degree=20__dtype=float16.png)
 
 Plotting Space Saved (%) vs PSNR (dB)
 ```python
@@ -116,7 +116,7 @@ plt.savefig("../results/video/drosophila_1slice/plots/space__vs__psnr____bs=%s__
 
 plt.show()
 ```
-![video\_space\_vs\_psnr](../../reconstructions/psnr_plots/video/space__vs__psnr____bs=10__cutoff=None__lp=2.0__poly_degs=1-10__t_degree=20__dtype=float16)
+![video\_space\_vs\_psnr](../../reconstructions/psnr_plots/video/space__vs__psnr____bs=10__cutoff=None__lp=2.0__poly_degs=1-10__t_degree=20__dtype=float16.png)
 
 Here we check video quality, and compare to produced metrics
 ```python
