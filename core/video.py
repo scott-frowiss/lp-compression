@@ -14,7 +14,7 @@ def compress_video(
     block_size: int = 20,
     lp_degree: float = 2.0,
     lasso: bool = False,
-    cutoff: Literal["mag", "energy", None] = "energy",
+    cutoff: Literal["mag", "energy", None] = "energy"
 ) -> Tuple[np.ndarray, np.ndarray, callable]:
 
     # Scale video
@@ -52,11 +52,7 @@ def compress_video(
     c = np.asarray(c).reshape(F, nrows, ncols, len(t))
 
     #
-    # Compress each frame
-    #
-
-    #
-    # Compress coefficients as they evolve through time - c(t)
+    # Compress coefficients as they evolve through time — obtain c(t)
     #
 
     # Construct design matrix
@@ -89,25 +85,7 @@ def reconstruct_video(
     t_design_matrix: np.ndarray,
     rescale: callable,
 ) -> np.ndarray:
-    #    blocks = np.einsum("kl,ijl->ijk", X_design, c)
-    #    n_rows, n_cols, n_block_squared = blocks.shape
-    #    n_block = int(np.sqrt(n_block_squared))
-    #
-    #    # reshape to 5D: (n_rows, n_cols, n_block, n_block)
-    #    blocks_5d = blocks.reshape(n_rows, n_cols, n_block, n_block)
-    #
-    #    # Swap axes to bring blocks together
-    #    blocks_5d = blocks_5d.transpose(
-    #        0, 2, 1, 3
-    #    )  # shape: (n_rows, n_block, n_cols, n_block)
-    #
-    #    # Merge blocks
-    #    full_video = blocks_5d.reshape(n_rows * n_block, n_cols * n_block)
-    #
-    #    # Rescale video
-    #    full_video = rescale(full_video)
 
-    # blocks has shape (F, nrows, ncols, block_size, block_size)
     blocks, nrows, ncols = split_frames_into_blocks(video, block_size)
     F, *_ = blocks.shape
     t_basis = t_design_matrix.shape[1]

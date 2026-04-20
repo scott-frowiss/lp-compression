@@ -42,7 +42,7 @@ def compress_image3d(
             design_matrix,
             p_inv_design_matrix,
             lasso,
-            cutoff,
+            cutoff
         )
         for block in blocks
     )

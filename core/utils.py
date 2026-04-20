@@ -179,7 +179,7 @@ def convert_to_gray_scale(image_rgb: np.ndarray) -> np.ndarray:
     b = image_rgb[:, :, 2]
 
     # Convert to gray scale by applying the SMPTE 295M-1997 standard to coefficients
-    # to the RGB intensities (as recommended by author)
+    # to the RGB intensities (as recommended by author of TESTIMAGES)
     return (0.2126 * r) + (0.7152 * g) + (0.0722 * b)
 
 

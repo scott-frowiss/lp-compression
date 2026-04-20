@@ -14,7 +14,7 @@ def compress_video3d(
     block_size: int = 10,
     lp_degree: float = 2.0,
     lasso: bool = False,
-    cutoff: Literal["mag", "energy", None] = "energy",
+    cutoff: Literal["mag", "energy", None] = "energy"
 ) -> Tuple[np.ndarray, np.ndarray, callable]:
 
     # Scale video3d
@@ -51,7 +51,7 @@ def compress_video3d(
     c = np.asarray(c).reshape(F, ntubes, nrows, ncols, len(t))
 
     #
-    # Compress coefficients as they evolve through time - c(t)
+    # Compress coefficients as they evolve through time — obtain c(t)
     #
 
     # Construct design matrix
@@ -89,16 +89,14 @@ def reconstruct_video3d(
     # blocks has shape (F * nt * nr * nc, bs, bs, bs)
 
     t_basis = t_design_matrix.shape[1]
-    X_basis = X_design.shape[1] #TODO: equiv to len(t)?
+    X_basis = X_design.shape[1] 
 
     c_t_rec = t_design_matrix @ c_t.reshape(t_basis, -1)
     c_t_rec = c_t_rec.reshape(F, ntubes, nrows, ncols, X_basis)
     # c_t_rec.shape should match that of c in reconstruct_image3d, just before np.einsum
 
     # blocks: (F, n_depth, n_rows, n_cols, n_block_cubed)
-    #TODO: isn't it (n_rows, n_cols, n_tubes/n_depth)?
     blocks = np.einsum("kl,ijmnl->ijmnk", X_design, c_t_rec)
-    #TODO: I need an extra dimension, correct? (compared to reconstruct_image3d)
 
     F, n_depth, n_rows, n_cols, n_block_cubed = blocks.shape
 

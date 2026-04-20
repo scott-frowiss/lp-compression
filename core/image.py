@@ -32,6 +32,7 @@ def compress_image(
     blocks, nrows, ncols = split_into_blocks_2d(image, block_size)
 
     # Construct design matrix
+    #TODO: Should change to Chebyshev nodes in future
     x = np.linspace(-1, 1, block_size)
     y = np.linspace(-1, 1, block_size)
     X, Y = np.meshgrid(y, x)
@@ -47,7 +48,7 @@ def compress_image(
             design_matrix,
             p_inv_design_matrix,
             lasso,
-            cutoff,
+            cutoff
         )
         for block in blocks
     )
