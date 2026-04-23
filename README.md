@@ -135,7 +135,8 @@ The only additional step is to register the environment as a Jupyter kernel.
 
 5. Verify the setup (optional, but recommended)
 
-   Open any notebook and make sure the selected kernel is: `Python (lp-compression)`
+   Open any notebook and make sure the selected kernel is:
+   `Python (lp-compression)`
 
 - For help installing Conda, see the official [documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
