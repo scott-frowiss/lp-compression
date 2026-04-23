@@ -75,6 +75,7 @@ and the support and resources provided by the Center for Advanced Systems Unders
 ## Citation
 
 The images we used in this project are from the [TESTIMAGES](https://testimages.org/) dataset.
+
 Images used:
 - `img_2400x2400_3x16bit_C00C00_RGB_garden_table.png` — named `garden_table.png` in `sources`
 
@@ -85,6 +86,7 @@ Images used:
 - ASUNI N, GIACHETTI A, "TESTIMAGES: a large-scale archive for testing visual devices and basic image processing algorithms", STAG - Smart Tools & Apps for Graphics Conference, 2014
 
 The videos we used in this project are from the [Cell-Tracking-Challenge](https://celltrackingchallenge.net/) website.
+
 Videos used:
 - `drosophila_1slice.tif` — originally available from the [Mastadon cell tracking software tutorial](https://mastodon.readthedocs.io/en/latest/docs/partA/getting_started.html) as a 3D timeseries dataset, adapted to a single slice animation by [Samuel Pantze](https://github.com/smlpt), a colleague at the Center for Advanced Systems Understanding (CASUS) — Helmholtz-Zentrum Dresden-Rossendorf (HZDR)
 - `Fluo-N3DL-DRO/01` — test dataset (3D+Time), original image data 1st sequence; can download [here](https://data.celltrackingchallenge.net/test-datasets/Fluo-N3DL-DRO.zip)
