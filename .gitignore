@@ -220,5 +220,5 @@ results/
 sources/
 
 # Files
-README_old.md
-future_directions.md
+/README_old.md
+docs/future_directions.md
