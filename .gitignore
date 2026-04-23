@@ -216,11 +216,13 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Directories
-results/image/*
-results/video/*
-results/image3d/*
-results/video3d/*
+results/image/garden_table/*
+results/video/drosophila_1slice/*
+results/image3d/drosophila_1slice/*
+results/video3d/Fluo-C3DH-A549_01/*
+results/video3d/drosophila_video_full_01/*
 sources/Fluo-C3DH-A549
+sources/Fluo-N3DL-DRO
 
 # Files
 README_old.md
