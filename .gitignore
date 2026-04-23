@@ -216,8 +216,10 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Directories
-results/
-sources/
+results/image/*
+results/video/*
+results/image3d/*
+results/video3d/*
 sources/Fluo-C3DH-A549
 
 # Files
