@@ -109,38 +109,33 @@ The only additional step is to register the environment as a Jupyter kernel.
 
 1. Clone the repository
 
-```bash
-git clone https://github.com/scott-frowiss/lp-compression.git
-cd lp-compression
-```
+        git clone https://github.com/scott-frowiss/lp-compression.git
+        cd lp-compression
+
 2. Create and activate the environment
 
-```bash
-conda env create --file=environment.yaml
-conda activate lp-compression
-```
+        conda env create --file=environment.yaml
+        conda activate lp-compression
 
 3. Register the kernel
 
-```bash
-python -m ipykernel install --user --name lp-compression --display-name "Python (lp-compression)"
-```
-After this step, the kernel "Python (lp-compression)" will be available in Jupyter.
+        python -m ipykernel install --user --name lp-compression --display-name "Python (lp-compression)"
+
+   After this step, the kernel "Python (lp-compression)" will be available in Jupyter.
 
 4. Launch Jupyter Notebook
 
-```bash
-jupyter notebook
-```
-Alternatively:
-```bash
-jupyter lab
-```
+
+        jupyter notebook
+
+   Alternatively:
+
+        jupyter lab
+
 
 5. Verify the setup (optional, but recommended)
 
-Open any notebook and make sure the selected kernel is:
-`Python (lp-compression)`
+   Open any notebook and make sure the selected kernel is: `Python (lp-compression)`
 
 - For help installing Conda, see the official [documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
