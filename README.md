@@ -85,13 +85,11 @@ Images used:
 
 - ASUNI N, GIACHETTI A, "TESTIMAGES: a large-scale archive for testing visual devices and basic image processing algorithms", STAG - Smart Tools & Apps for Graphics Conference, 2014
 
-The videos we used in this project are from the [Cell-Tracking-Challenge](https://celltrackingchallenge.net/) website.
-
 Videos used:
 - `drosophila_1slice.tif` — originally available from the [Mastadon cell tracking software tutorial](https://mastodon.readthedocs.io/en/latest/docs/partA/getting_started.html) as a 3D timeseries dataset, adapted to a single slice animation by [Samuel Pantze](https://github.com/smlpt), a colleague at the Center for Advanced Systems Understanding (CASUS) — Helmholtz-Zentrum Dresden-Rossendorf (HZDR)
-- `Fluo-N3DL-DRO/01` — test dataset (3D+Time), original image data 1st sequence; can download [here](https://data.celltrackingchallenge.net/test-datasets/Fluo-N3DL-DRO.zip)
+- `Fluo-N3DL-DRO/01` — test dataset (3D+Time), original image data 1st sequence; provided by the [Cell-Tracking-Challenge](https://celltrackingchallenge.net/) (CTC) website — can download [here](https://data.celltrackingchallenge.net/test-datasets/Fluo-N3DL-DRO.zip)
 
-** Related references **
+** Related CTC references **
 
 - Maška, M., Ulman, V., Delgado-Rodriguez, P. et al. The Cell Tracking Challenge: 10 years of objective benchmarking. *Nat Methods* 20, 1010–1020 (2023). https://doi.org/10.1038/s41592-023-01879-y
 
