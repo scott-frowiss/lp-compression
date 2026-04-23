@@ -225,5 +225,6 @@ sources/Fluo-C3DH-A549
 sources/Fluo-N3DL-DRO
 
 # Files
+.DS_Store
 README_old.md
 docs/future_directions.md
